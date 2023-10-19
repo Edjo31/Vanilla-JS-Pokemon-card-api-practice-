@@ -1,0 +1,29 @@
+.colorfull{
+    animation: pastelRGB;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    }
+    @keyframes pastelRGB {
+        0%   {color: #FFB3BA; text-shadow: 2px 2px 4px rgba(255, 179, 186, 0.8);} /* Rosa pastel */
+        5%   {color: #FFDFBA; text-shadow: 2px 2px 4px rgba(255, 223, 186, 0.8);} /* Melocotón */
+        10%  {color: #FFFFBA; text-shadow: 2px 2px 4px rgba(255, 255, 186, 0.8);} /* Amarillo pastel */
+        15%  {color: #BAFFC9; text-shadow: 2px 2px 4px rgba(186, 255, 201, 0.8);} /* Verde menta */
+        20%  {color: #BAE1FF; text-shadow: 2px 2px 4px rgba(186, 225, 255, 0.8);} /* Azul cielo */
+        25%  {color: #A1CAF1; text-shadow: 2px 2px 4px rgba(161, 202, 241, 0.8);} /* Bebé azul */
+        30%  {color: #F4C2C2; text-shadow: 2px 2px 4px rgba(244, 194, 194, 0.8);} /* Rosa té */
+        35%  {color: #21ABCD; text-shadow: 2px 2px 4px rgba(33, 171, 205, 0.8);} /* Azul pacífico */
+        40%  {color: #FAE7B5; text-shadow: 2px 2px 4px rgba(250, 231, 181, 0.8);} /* Bananamanía */
+        45%  {color: #FFE135; text-shadow: 2px 2px 4px rgba(255, 225, 53, 0.8);} /* Amarillo láser */
+        50%  {color: #FF6FFF; text-shadow: 2px 2px 4px rgba(255, 111, 255, 0.8);} /* Rosa brillante */
+        55%  {color: #50C878; text-shadow: 2px 2px 4px rgba(80, 200, 120, 0.8);} /* Esmeralda */
+        60%  {color: #DE3163; text-shadow: 2px 2px 4px rgba(222, 49, 99, 0.8);} /* Rojo cereza */
+        65%  {color: #9FE2BF; text-shadow: 2px 2px 4px rgba(159, 226, 191, 0.8);} /* Verde mar */
+        70%  {color: #40E0D0; text-shadow: 2px 2px 4px rgba(64, 224, 208, 0.8);} /* Turquesa */
+        75%  {color: #6495ED; text-shadow: 2px 2px 4px rgba(100, 149, 237, 0.8);} /* Azul aciano */
+        80%  {color: #DFFF00; text-shadow: 2px 2px 4px rgba(223, 255, 0, 0.8);} /* Amarillo chartreuse */
+        85%  {color: #FFBF00; text-shadow: 2px 2px 4px rgba(255, 191, 0, 0.8);} /* Ámbar */
+        90%  {color: #FF7F50; text-shadow: 2px 2px 4px rgba(255, 127, 80, 0.8);} /* Coral */
+        95%  {color: #DE5D83; text-shadow: 2px 2px 4px rgba(222, 93, 131, 0.8);} /* Rubor */
+        100% {color: #FDEE00; text-shadow: 2px 2px 4px rgba(253, 238, 0, 0.8);} /* Oro */
+    }
+    

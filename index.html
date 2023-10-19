@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <script src="./script/IconDisplace.js"></script>
+  
+    <script  src="./script/HandlePokemon.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Vanilla</title>
+
+<script>
+    window.onload =function(){
+        
+        IconDisplace()
+        
+    }
+</script>
+
+</head>
+<body>
+ 
+     <div class="all-container">
+        <video class="video" src="./assets/background.mp4" autoplay loop></video>
+        <section class="funtional-container">
+            <section class="search-container">
+                <section id="label-pokedex" class="label ">
+                    <h1>Pokedex</h1>
+                </section>
+                <section class="search-box">
+                 <section class="icon">
+                    <i id="icons" class=" icons fa-solid fa-magnifying-glass"></i>
+                 </section>
+                    <input  id="input" class="input" type="text">
+                </section>
+                <section class="btnC">
+                    <button onclick=" HandlePokemon()">Buscar</button>
+                </section>
+            </section>
+            <section class="img-container ">
+                <section class="img-data">
+                  <section id="hide"class="info">
+              <table class="table">
+                <caption id="nameP" class="colorfull">Pokemon</caption>
+                
+                    <thead>
+                        <tr id="row" class="row">
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="info">
+                            
+                        </tr>
+                    </tbody>
+                <tfoot>
+                    <tr>
+                        <td class="types" id="types" ></td>
+                    </tr>
+                </tfoot>
+
+              </table>
+            
+                  </section>
+                  <section id="img-error" class="imgP  ">
+                    <img class="imgP  " id="pokeImg" src="">
+                  </section>
+
+                  
+                </section>
+                
+            </section>
+        </section>
+
+     </div>
+
+     
+
+</body>
+</html>
